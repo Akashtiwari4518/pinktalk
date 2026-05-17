@@ -6,7 +6,7 @@ import { Copy, Share2, Shield, Send, ArrowLeft, Users, ShieldCheck } from 'lucid
 import { motion, AnimatePresence } from 'framer-motion';
 
 // Replace with your backend URL when deploying
-const SOCKET_SERVER_URL = 'http://localhost:5000';
+const SOCKET_SERVER_URL = 'https://pinktalk-backend.onrender.com';
 
 const ChatRoom = () => {
   const { roomId } = useParams();
